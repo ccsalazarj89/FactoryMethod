@@ -1,0 +1,19 @@
+gcc Client.cpp  HumanCharacterFactory.cpp -o Client
+
+
+In file included from Client.cpp:1:0:
+HumanCharacterFactory.cpp: In member function ‘virtual Character* HumanCharacterFactory::getname(int)’:
+HumanCharacterFactory.cpp:16:25: error: expected type-specifier before ‘HumanWarlock’
+                 a = new HumanWarlock(20);
+                         ^~~~~~~~~~~~
+HumanCharacterFactory.cpp:18:25: error: expected type-specifier before ‘HumanHunter’
+                 a = new HumanHunter(10);
+                         ^~~~~~~~~~~
+HumanCharacterFactory.cpp: In member function ‘virtual Character* HumanCharacterFactory::getname(int)’:
+HumanCharacterFactory.cpp:16:25: error: expected type-specifier before ‘HumanWarlock’
+                 a = new HumanWarlock(20);
+                         ^~~~~~~~~~~~
+HumanCharacterFactory.cpp:18:25: error: expected type-specifier before ‘HumanHunter’
+                 a = new HumanHunter(10);
+                         ^~~~~~~~~~~
+
